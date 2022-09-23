@@ -5,10 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Emanuel Rouse | Software Engineer</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- CSS Reset -->
   <link rel="stylesheet" href="css/normalize.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Corben&display=swap" rel="stylesheet">
   <!-- Font Awesome Icons -->
-  <script src="https://kit.fontawesome.com/4fdb06969e.js" crossorigin="anonymous"></script>
+  <!-- <script src="https://kit.fontawesome.com/4fdb06969e.js" crossorigin="anonymous"></script> -->
 
 </head>
 
@@ -16,22 +22,42 @@
   <!-- TODO: Mobile media quries -->
   <div class="overlay">
     <header>
-      <div class="topnav">
-        <!-- <h1>Emanuel Rousle | Software Engineer</h1> -->
-        <navbar id="navbar">
-          <ul>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#" class="active">Home</a></li>
-          </ul>
-        </navbar>
-      </div>
+      <!-- Logo -->
+      <div class="logo">ER | Full Stack Dev</div>
+
+      <nav class="navbar">
+        <!-- Navigation Menu -->
+        <ul class="nav-links">
+          <!-- Navigation Items -->
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
-    <section class="headline">
-      <h1>Hi, I'm <span>Emanuel Rouse</span>! A Software Engineer</h1>
-    </section>
-    <section id="welcome-section">
+    <div id="home" class="hero">
+
+      <h1>Hi, I'm Emanuel Rouse, a <div class="waviy">
+          <span style="--i:1">F</span>
+          <span style="--i:2">u</span>
+          <span style="--i:3">l</span>
+          <span style="--i:4">l</span>
+          <span style="--i:5"></span>
+          <span style="--i:5">S</span>
+          <span style="--i:6">t</span>
+          <span style="--i:7">a</span>
+          <span style="--i:8">c</span>
+          <span style="--i:9">k</span>
+          <span style="--i:10"></span>
+          <span style="--i:11">D</span>
+          <span style="--i:12">e</span>
+          <span style="--i:13">v</span>
+          <span style="--i:14">.</span>
+        </div>
+      </h1>
+    </div>
+    <section id="about" class="about">
       <div class="inner">
         <h2>Bio</h2>
         <p>
@@ -55,14 +81,12 @@
     <!-- Repos: Live & Github -->
     <!-- Button to go to next screenshot -->
     <!-- Button to go to next project -->
-    <section id="projects">
+    <section id="projects" class="projects">
       <div class="inner">
         <h2>Projects</h2>
         <div class="project-tile">
-          <div class="left-arrow">&#8592;</div>
-          <div class="right-arrow">&#8594;</div>
-          <img class="thumbnail" src="./assets/imgs/projects/pokemon-quiz/smilining-pikachu.jpg" alt="">
           <h2 class="project-title">Pokemon Quiz App</h2>
+          <img class="thumbnail" src="./assets/imgs/projects/pokemon-quiz/smilining-pikachu.jpg" alt="">
           <a href="https://github.com/emanuelrouse/pokemon-quiz-app"><i class="fa-brands fa-github-alt"></i>
           </a>
           <br />
@@ -74,6 +98,38 @@
               qui.
             </div>
           </div>
+          <div class="project-tile">
+            <h2 class="project-title">Pokemon Quiz App</h2>
+            <img class="thumbnail" src="./assets/imgs/projects/pokemon-quiz/smilining-pikachu.jpg" alt="">
+            <a href="https://github.com/emanuelrouse/pokemon-quiz-app"><i class="fa-brands fa-github-alt"></i>
+            </a>
+            <br />
+            <a href="https://emanuelrouse.github.io/pokemon-quiz-app/"><i class="fa-brands fa-chrome"></i></a>
+            <div>
+              <div class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum cum inventore qui porro iusto
+                consequatur,
+                tempore voluptatem eaque. Ea quos nobis ex in aspernatur necessitatibus, a laboriosam eaque praesentium
+                qui.
+              </div>
+            </div>
+            <div class="project-tile">
+
+              <h2 class="project-title">Pokemon Quiz App</h2>
+              <img class="thumbnail" src="./assets/imgs/projects/pokemon-quiz/smilining-pikachu.jpg" alt="">
+              <a href="https://github.com/emanuelrouse/pokemon-quiz-app"><i class="fa-brands fa-github-alt"></i>
+              </a>
+              <br />
+              <a href="https://emanuelrouse.github.io/pokemon-quiz-app/"><i class="fa-brands fa-chrome"></i></a>
+              <div>
+                <div class="description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum cum inventore qui porro iusto
+                  consequatur,
+                  tempore voluptatem eaque. Ea quos nobis ex in aspernatur necessitatibus, a laboriosam eaque
+                  praesentium
+                  qui.
+                </div>
+              </div>
     </section>
     <section id="contact">
       <!-- TODO: style contact form -->
@@ -101,18 +157,16 @@
       </div>
     </section>
     <footer>
+      © 2022 emanuelrouse.com | All Rights Reserved
 
       <ul>
-        <li>LinkedIn</li>
-        <li>Github</li>
-        <a href="https://twitter.com/emanuelrouse7" target="_blank">
-          <li>Twitter</li>
-        </a>
+        <li><a href="https://www.linkedin.com/in/elrouse1958" target="_blank">LinkedIn</a></li>
+        <li><a href="https://github.com/emanuelrouse" target="_blank">Github</a></li>
+        <li><a href="https://twitter.com/emanuelrouse7" target="_blank">Twitter</a></li>
 
       </ul>
     </footer>
   </div>
-
 </body>
 
 </html>
