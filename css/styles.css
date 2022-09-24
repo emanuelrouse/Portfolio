@@ -30,7 +30,19 @@
       }
     }
 
-    /* PRICING TABLES */
+    /* Projects*/
     .project {
       margin: 0 -16pxs
+    }
+
+    .project-title {
+      text-align: center;
+    }
+
+    .project-screenshot {
+      width: 100%;
+      height: 200px;
+      /* overflow: hidden; */
+      background-image: url("../assets/imgs/projects/pokemon-quiz/smilining-pikachu.jpg");
+      background-size: cover;
     }
