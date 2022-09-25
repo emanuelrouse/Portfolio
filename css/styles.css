@@ -5,12 +5,12 @@
     h4,
     h5,
     h6 {
-      font-family: "Montserrat", sans-serif
+      font-family: "Montserrat", sans-serif;
     }
 
 
     .w3-row-padding img {
-      margin-bottom: 12px
+      margin-bottom: 12px;
     }
 
     /* Set the width of the sidebar to 120px */
@@ -21,20 +21,23 @@
 
     /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
     #main {
-      margin-left: 120px
+      margin-left: 120px;
+      background-color: #B0CDF1;
     }
 
     /* Remove margins from "page content" on small screens */
     @media only screen and (max-width: 600px) {
       #main {
-        margin-left: 0
+        margin-left: 0;
       }
     }
 
     /* Projects*/
     .project {
       margin: 0 -16px;
-      display: inline-block;
+      display: flex;
+      flex-direction: row;
+      /* width: 100%; */
     }
 
     .project-title {
@@ -52,3 +55,57 @@
     .demo-btn {
       display: inline-block;
     }
+
+    .waviy {
+      position: relative;
+      -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, .2));
+      font-size: 60px;
+    }
+
+    .waviy span {
+      /* font-family: 'Corben', cursive; */
+      position: relative;
+      display: inline-block;
+      color: whitesmoke;
+      /* text-transform: uppercase; */
+      animation: waviy 2.5s;
+      animation-delay: calc(.1s * var(--i));
+    }
+
+    @keyframes waviy {
+
+      0%,
+      40%,
+      100% {
+        transform: translateY(0)
+      }
+
+      20% {
+        transform: translateY(-20px)
+      }
+    }
+
+    .container {
+      height: 100vh;
+    }
+
+    .home {
+      display: flex;
+      /* flex-direction: row;  */
+      justify-content: center;
+      text-align: center;
+      background: url("../assets/imgs/cristiano-firmani-tmTidmpILWw-unsplash.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: white;
+    }
+
+    header {
+      height: 100%;
+    }
+
+    .active {
+      background-color: black;
+    }
+
+    .main {}
