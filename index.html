@@ -16,7 +16,8 @@
   <!-- Icon Bar (Sidebar - hidden on small screens) -->
   <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
     <!-- Avatar image in top left corner -->
-    <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" style="width:100%">
+    <!-- <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" style="width:100%"> -->
+    <!-- <h1 class="logo">Emanuel Rouse | Full Stack Developer</h1>/ -->
     <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
       <i class="fa fa-home w3-xxlarge"></i>
       <p>HOME</p>
@@ -25,9 +26,9 @@
       <i class="fa fa-user w3-xxlarge"></i>
       <p>ABOUT</p>
     </a>
-    <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-      <i class="fa fa-eye w3-xxlarge"></i>
-      <p>PHOTOS</p>
+    <a href="#skills" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-book w3-xxlarge"></i>
+      <p>SKILLS</p>
     </a>
     <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
       <i class="fa fa-envelope w3-xxlarge"></i>
@@ -56,7 +57,7 @@
 
     <!-- About Section -->
     <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-      <h2 class="w3-text-light-grey">My Name</h2>
+      <h2 class="w3-text-light-grey">About Me</h2>
       <hr style="width:200px" class="w3-opacity">
       <p>Hi, my name is Emanuel Rouse. I'm always improving my programming skills to bring the best value I can for my
         clients. Building things is my <em>passion</em> whether it be a front-end project, backend API or a fullstack
@@ -65,176 +66,213 @@
         I'm ready to start my professional career in software development. If you're looking for someone to add
         to your team or have a project you're interested in turning into an web app
       </p>
-      <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
-      <p class="w3-wide">HTML</p>
-      <div class="w3-white">
-        <div class="w3-dark-grey" style="height:28px;width:100%"></div>
-      </div>
-      <p class="w3-wide">CSS</p>
-      <div class="w3-white">
-        <div class="w3-dark-grey" style="height:28px;width:100%"></div>
-      </div>
-      <p class="w3-wide">JavaScript</p>
-      <div class="w3-white">
-        <div class="w3-dark-grey" style="height:28px;width:100%"></div>
-      </div><br>
-      <p class="w3-wide">Node</p>
-      <div class="w3-white">
-        <div class="w3-dark-grey" style="height:28px;width:100%"></div>
-      </div><br>
-      <p class="w3-wide">Command Line</p>
-      <div class="w3-white">
-        <div class="w3-dark-grey" style="height:28px;width:100%"></div>
-      </div><br>
-      <p class="w3-wide">MongoDB</p>
-      <div class="w3-white">
-        <div class="w3-dark-grey" style="height:28px;width:100%"></div>
-      </div><br>
-      <p class="w3-wide">SQL</p>
-      <div class="w3-white">
-        <div class="w3-dark-grey" style="height:28px;width:100%"></div>
-      </div><br>
-      <p class="w3-wide">React</p>
-      <div class="w3-white">
-        <div class="w3-dark-grey" style="height:28px;width:100%"></div>
-      </div><br>
-      <p class="w3-wide">React Native</p>
-      <div class="w3-white">
-        <div class="w3-dark-grey" style="height:28px;width:100%"></div>
-      </div><br>
-      <p class="w3-wide">Bootstrap</p>
-      <div class="w3-white">
-        <div class="w3-dark-grey" style="height:28px;width:100%"></div>
-      </div><br>
-      <p class="w3-wide">SASS</p>
-      <div class="w3-white">
-        <div class="w3-dark-grey" style="height:28px;width:100%"></div>
-      </div><br>
 
       <button class="w3-button w3-light-grey w3-padding-large w3-section">
         <i class="fa fa-download"></i> Download Resume
       </button>
 
       <!-- Grid for Projects   -->
+      <!-- Might have to convert to a card compoenent -->
       <h3 class="project-title w3-padding-16 w3-text-light-grey">My Projects </h3>
       <div class="projects w3-row-padding">
         <div class="w3-half w3-margin-bottom">
           <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
             <li class="w3-dark-grey w3-xlarge w3-padding-32">Pokemon Quiz App</li>
             <div class="project-screenshot">
-              <!-- <img src="./assets/imgs/projects/pokemon-quiz/smilining-pikachu.jpg" alt=""> -->
             </div>
-            <!-- <li class="w3-padding-16">Web Design</li>
-            <li class="w3-padding-16">Photography</li>
-            <li class="w3-padding-16">5GB Storage</li>
-            <li class="w3-padding-16">Mail Support</li>
-            <li class="w3-padding-16">
-              <h2>$ 10</h2>
-              <span class="w3-opacity">per month</span>
-            </li> -->
-            <li class="w3-light-grey w3-padding-24">
-              <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+
+            <li class="demo-btn w3-light-grey w3-padding-24">
+              <button class="w3-button w3-white w3-padding-large w3-hover-black">Live Demo</button>
+            </li>
+            <li class="demo-btn w3-light-grey w3-padding-24">
+              <button class="w3-button w3-white w3-padding-large w3-hover-black">Github Repo</button>
             </li>
           </ul>
         </div>
+        <div class="projects w3-row-padding">
+          <div class="w3-half w3-margin-bottom">
+            <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+              <li class="w3-dark-grey w3-xlarge w3-padding-32">Pokemon Quiz App</li>
+              <div class="project-screenshot">
+              </div>
 
-        <div class="w3-half">
-          <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-            <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
-            <li class="w3-padding-16">Web Design</li>
-            <li class="w3-padding-16">Photography</li>
-            <li class="w3-padding-16">50GB Storage</li>
-            <li class="w3-padding-16">Endless Support</li>
-            <li class="w3-padding-16">
-              <h2>$ 25</h2>
-              <span class="w3-opacity">per month</span>
-            </li>
-            <li class="w3-light-grey w3-padding-24">
-              <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-            </li>
-          </ul>
-        </div>
-        <!-- End Grid/Pricing tables -->
-      </div>
+              <li class="demo-btn w3-light-grey w3-padding-24">
+                <button class="w3-button w3-white w3-padding-large w3-hover-black">Live Demo</button>
+              </li>
+              <li class="demo-btn w3-light-grey w3-padding-24">
+                <button class="w3-button w3-white w3-padding-large w3-hover-black">Github Repo</button>
+              </li>
+            </ul>
+          </div>
+          <div class="projects w3-row-padding">
+            <div class="w3-half w3-margin-bottom">
+              <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+                <li class="w3-dark-grey w3-xlarge w3-padding-32">Pokemon Quiz App</li>
+                <div class="project-screenshot">
+                </div>
 
-      <!-- LinkedIn Refferals? -->
-      <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>
-      <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Avatar"
-        class="w3-left w3-circle w3-margin-right" style="width:80px">
-      <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
-      <p>John Doe saved us from a web disaster.</p><br>
+                <li class="demo-btn w3-light-grey w3-padding-24">
+                  <button class="w3-button w3-white w3-padding-large w3-hover-black">Live Demo</button>
+                </li>
+                <li class="demo-btn w3-light-grey w3-padding-24">
+                  <button class="w3-button w3-white w3-padding-large w3-hover-black">Github Repo</button>
+                </li>
+              </ul>
+            </div>
+            <div class="projects w3-row-padding">
+              <div class="w3-half w3-margin-bottom">
+                <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+                  <li class="w3-dark-grey w3-xlarge w3-padding-32">Pokemon Quiz App</li>
+                  <div class="project-screenshot">
+                  </div>
 
-      <img src="https://www.w3schools.com/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right"
-        style="width:80px">
-      <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
-      <p>No one is better than John Doe.</p>
-      <!-- End About Section -->
-    </div>
+                  <li class="demo-btn w3-light-grey w3-padding-24">
+                    <button class="w3-button w3-white w3-padding-large w3-hover-black">Live Demo</button>
+                  </li>
+                  <li class="demo-btn w3-light-grey w3-padding-24">
+                    <button class="w3-button w3-white w3-padding-large w3-hover-black">Github Repo</button>
+                  </li>
+                </ul>
+              </div>
+              <div class="projects w3-row-padding">
+                <div class="w3-half w3-margin-bottom">
+                  <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+                    <li class="w3-dark-grey w3-xlarge w3-padding-32">Pokemon Quiz App</li>
+                    <div class="project-screenshot">
+                    </div>
 
-    <!-- Portfolio Section -->
-    <div class="w3-padding-64 w3-content" id="photos">
-      <h2 class="w3-text-light-grey">My Photos</h2>
-      <hr style="width:200px" class="w3-opacity">
+                    <li class="demo-btn w3-light-grey w3-padding-24">
+                      <button class="w3-button w3-white w3-padding-large w3-hover-black">Live Demo</button>
+                    </li>
+                    <li class="demo-btn w3-light-grey w3-padding-24">
+                      <button class="w3-button w3-white w3-padding-large w3-hover-black">Github Repo</button>
+                    </li>
+                  </ul>
+                </div>
+                <!-- End Grid/Pricing tables -->
+              </div>
 
-      <!-- Grid for photos -->
-      <div class="w3-row-padding" style="margin:0 -16px">
-        <div class="w3-half">
-          <img src="https://www.w3schools.com/w3images/wedding.jpg" style="width:100%">
-          <img src="https://www.w3schools.com/w3images/rocks.jpg" style="width:100%">
-          <img src="https://www.w3schools.com/w3images/sailboat.jpg" style="width:100%">
-        </div>
+              <!-- LinkedIn Refferals? -->
+              <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>
+              <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Avatar"
+                class="w3-left w3-circle w3-margin-right" style="width:80px">
+              <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
+              <p>John Doe saved us from a web disaster.</p><br>
 
-        <div class="w3-half">
-          <img src="https://www.w3schools.com/w3images/underwater.jpg" style="width:100%">
-          <img src="https://www.w3schools.com/w3images/chef.jpg" style="width:100%">
-          <img src="https://www.w3schools.com/w3images/wedding.jpg" style="width:100%">
-          <img src="https://www.w3schools.com/w3images/p6.jpg" style="width:100%">
-        </div>
-        <!-- End photo grid -->
-      </div>
-      <!-- End Portfolio Section -->
-    </div>
+              <img src="https://www.w3schools.com/w3images/avatar_g2.jpg" alt="Avatar"
+                class="w3-left w3-circle w3-margin-right" style="width:80px">
+              <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
+              <p>No one is better than John Doe.</p>
+              <!-- End About Section -->
+            </div>
 
-    <!-- Contact Section -->
-    <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-      <h2 class="w3-text-light-grey">Contact Me</h2>
-      <hr style="width:200px" class="w3-opacity">
+            <!-- Portfolio Section -->
+            <div class="w3-padding-64 w3-content" id="skills">
+              <h2 class="w3-text-light-grey">My Skills</h2>
+              <hr style="width:200px" class="w3-opacity">
+              <h3 class="w3-padding-16 w3-text-light-grey"></h3>
+              <p class="w3-wide">HTML</p>
+              <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:100%"></div>
+              </div>
+              <p class="w3-wide">CSS</p>
+              <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:100%"></div>
+              </div>
+              <p class="w3-wide">JavaScript</p>
+              <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:100%"></div>
+              </div><br>
+              <p class="w3-wide">Node</p>
+              <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:100%"></div>
+              </div><br>
+              <p class="w3-wide">Command Line</p>
+              <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:100%"></div>
+              </div><br>
+              <p class="w3-wide">MongoDB</p>
+              <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:100%"></div>
+              </div><br>
+              <p class="w3-wide">SQL</p>
+              <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:100%"></div>
+              </div><br>
+              <p class="w3-wide">React</p>
+              <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:100%"></div>
+              </div><br>
+              <p class="w3-wide">React Native</p>
+              <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:100%"></div>
+              </div><br>
+              <p class="w3-wide">Bootstrap</p>
+              <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:100%"></div>
+              </div><br>
+              <p class="w3-wide">SASS</p>
+              <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:100%"></div>
+              </div><br>
+              <!-- <div class="w3-row-padding" style="margin:0 -16px">
+                <div class="w3-half">
+                  <img src="https://www.w3schools.com/w3images/wedding.jpg" style="width:100%">
+                  <img src="https://www.w3schools.com/w3images/rocks.jpg" style="width:100%">
+                  <img src="https://www.w3schools.com/w3images/sailboat.jpg" style="width:100%">
+                </div>
 
-      <div class="w3-section">
-        <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> New Jersey, US</p>
-        <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +856-916-1675</p>
-        <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email:
-          emanuelrouse@hotmail.com</p>
-      </div><br>
-      <p>Let's get in touch. Send me a message:</p>
+                <div class="w3-half">
+                  <img src="https://www.w3schools.com/w3images/underwater.jpg" style="width:100%">
+                  <img src="https://www.w3schools.com/w3images/chef.jpg" style="width:100%">
+                  <img src="https://www.w3schools.com/w3images/wedding.jpg" style="width:100%">
+                  <img src="https://www.w3schools.com/w3images/p6.jpg" style="width:100%">
+                </div> -->
+              <!-- End photo grid -->
+              <!-- </div> -->
+              <!-- End Portfolio Section -->
+            </div>
 
-      <form action="/action_page.php" target="_blank">
-        <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-        <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-        <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
-        <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
-        <p>
-          <button class="w3-button w3-light-grey w3-padding-large" type="submit">
-            <i class="fa fa-paper-plane"></i> SEND MESSAGE
-          </button>
-        </p>
-      </form>
-      <!-- End Contact Section -->
-    </div>
+            <!-- Contact Section -->
+            <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+              <h2 class="w3-text-light-grey">Contact Me</h2>
+              <hr style="width:200px" class="w3-opacity">
 
-    <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
-    <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-      <i class="fa fa-facebook-official w3-hover-opacity"></i>
-      <i class="fa fa-instagram w3-hover-opacity"></i>
-      <i class="fa fa-snapchat w3-hover-opacity"></i>
-      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-      <i class="fa fa-twitter w3-hover-opacity"></i>
-      <i class="fa fa-linkedin w3-hover-opacity"></i>
-      <!-- End footer -->
-    </footer>
+              <div class="w3-section">
+                <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> New Jersey, US</p>
+                <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +856-916-1675</p>
+                <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email:
+                  emanuelrouse@hotmail.com</p>
+              </div><br>
+              <p>Let's get in touch. Send me a message:</p>
 
-    <!-- END PAGE CONTENT -->
-  </div>
+              <form action="/action_page.php" target="_blank">
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+                <p>
+                  <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+                    <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                  </button>
+                </p>
+              </form>
+              <!-- End Contact Section -->
+            </div>
+
+            <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+            <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+              <i class="fa fa-facebook-official w3-hover-opacity"></i>
+              <i class="fa fa-instagram w3-hover-opacity"></i>
+              <i class="fa fa-snapchat w3-hover-opacity"></i>
+              <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+              <i class="fa fa-twitter w3-hover-opacity"></i>
+              <i class="fa fa-linkedin w3-hover-opacity"></i>
+              <!-- End footer -->
+            </footer>
+
+            <!-- END PAGE CONTENT -->
+          </div>
 
 </body>
 
