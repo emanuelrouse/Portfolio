@@ -21,49 +21,56 @@
   </head>
 
   <body class="">
-    <!-- w3-black -->
-    <!-- TODO: REMOVE W-3BLACK AND SET COLOR TO CHANGE TO ACTIVE CLASS ON CLICK MUST USE A SCRIPT FOR THIS -->
-    <!-- Icon Bar (Sidebar - hidden on small screens) -->
-    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-      <!-- Avatar image in top left corner -->
-      <!-- <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" style="width:100%"> -->
-      <!-- <h1 class="logo">Emanuel Rouse | Full Stack Developer</h1>/ -->
-      <!-- TODO: Look into animation for nav click to make screen transition smoother -->
-      <a
-        href="#"
-        class="active-link w3-bar-item w3-button w3-padding-large w3-hover-black"
-      >
-        <i class="fa fa-home w3-xxlarge"></i>
-        <p>HOME</p>
-      </a>
-      <a
-        href="#about"
-        class="w3-bar-item w3-button w3-padding-large w3-hover-black"
-      >
-        <i class="fa fa-user w3-xxlarge"></i>
-        <p>ABOUT</p>
-      </a>
-      <a
-        href="#skills"
-        class="w3-bar-item w3-button w3-padding-large w3-hover-black"
-      >
-        <i class="fa fa-book w3-xxlarge"></i>
-        <p>SKILLS</p>
-      </a>
-      <a
-        href="#projects"
-        class="w3-bar-item w3-button w3-padding-large w3-hover-black"
-      >
-        <i class="fa fa-book w3-xxlarge"></i>
-        <p>PROJECTS</p>
-      </a>
-      <a
-        href="#contact"
-        class="w3-bar-item w3-button w3-padding-large w3-hover-black"
-      >
-        <i class="fa fa-envelope w3-xxlarge"></i>
-        <p>CONTACT</p>
-      </a>
+    <nav
+      class="sidebar w3-sidebar w3-bar-block w3-small w3-hide-small w3-center"
+    >
+      <ul>
+        <li>
+          <a
+            href="#"
+            class="w3-bar-item w3-button w3-padding-large w3-hover-black"
+          >
+            <i class="fa fa-home w3-xxlarge"></i>
+            <p>HOME</p>
+          </a>
+        </li>
+        <li>
+          <a
+            href="#about"
+            class="w3-bar-item w3-button w3-padding-large w3-hover-black"
+          >
+            <i class="fa fa-user w3-xxlarge"></i>
+            <p>ABOUT</p>
+          </a>
+        </li>
+        <li>
+          <a
+            href="#skills"
+            class="w3-bar-item w3-button w3-padding-large w3-hover-black"
+          >
+            <i class="fa fa-book w3-xxlarge"></i>
+            <p>SKILLS</p>
+          </a>
+        </li>
+        <li>
+          <a
+            href="#projects"
+            class="w3-bar-item w3-button w3-padding-large w3-hover-black"
+          >
+            <i class="fa fa-book w3-xxlarge"></i>
+            <p>PROJECTS</p>
+          </a>
+        </li>
+        <li>
+          <a
+            href="#contact"
+            class="w3-bar-item w3-button w3-padding-large w3-hover-black"
+          >
+            <i class="fa fa-envelope w3-xxlarge"></i>
+            <p>CONTACT</p>
+          </a>
+        </li>
+      </ul>
     </nav>
 
     <!-- Navbar on small screens (Hidden on medium and large screens) -->
@@ -97,7 +104,6 @@
 
     <!-- Page Content -->
     <div class="main" id="main">
-      <!-- w3-padding-large -->
       <!-- Header/Home -->
       <div id="home" class="home container">
         <header class="w3-container w3-padding-32" class="waviy">
@@ -139,19 +145,23 @@
         <hr style="width: 200px" class="w3-opacity" />
         <!-- Update about to emphasis my 16 years of customer service skills -->
         <p>
-          Hi, my name is Emanuel Rouse. I'm always improving my programming
+          Hi, my name is Emanuel Rouse. After sixteen years in customer service
+          I've decided to follow my passion for tech and persue a career in the
+          development industry. I'm always striving to improve my programming
           skills to bring the best value I can for my clients. Building things
-          is my <em>passion</em> whether it be a front-end project, backend API
-          or a fullstack solution. I <em>can</em> implement it. Nothing brings
-          me more joy than coming up with a solution for a programming problem
-          and fully implementing it. I'm ready to start my professional career
-          in software development. If you're looking for someone to add to your
-          team or have a project you're interested in turning into an web app
+          is my <em>passion</em>, whether it be a front-end project, backend API
+          or a fullstack implementation. Nothing brings me more joy than
+          providing customers with the utmost quality and care for their
+          projects. If you're looking for someone to add to your team or have a
+          project you're interested in turning into an web app
+          <span><a href="#contact">let's chat.</a></span>
         </p>
 
-        <!-- TODO: Add ability to download my resume from the site -->
         <button class="w3-button w3-light-grey w3-padding-large w3-section">
-          <i class="fa fa-download"></i> Download Resume
+          <i class="fa fa-download"></i>
+          <a href="./assets/resume/emanuel_rouse_resume.pdf" target="_blank"
+            >Download Resume</a
+          >
         </button>
 
         <!-- End About Section -->
@@ -227,6 +237,7 @@
           My Projects
         </h3>
         <div class="project w3-row-padding">
+          <!-- Project 1 -->
           <div class="w3-half w3-margin-bottom">
             <!-- TODO: Add a selected class that keeps the selected project highlighted -->
             <ul
@@ -254,37 +265,11 @@
             </ul>
           </div>
           <div class="w3-half w3-margin-bottom">
+            <!-- Project 2 -->
             <ul
               class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off"
             >
-              <li class="w3-dark-grey w3-xlarge w3-padding-32">
-                Pokemon Quiz App
-              </li>
-              <div class="project-screenshot"></div>
-
-              <li class="demo-btn w3-light-grey w3-padding-24">
-                <button
-                  class="w3-button w3-white w3-padding-large w3-hover-black"
-                >
-                  Live Demo
-                </button>
-              </li>
-              <li class="demo-btn w3-light-grey w3-padding-24">
-                <button
-                  class="w3-button w3-white w3-padding-large w3-hover-black"
-                >
-                  Github Repo
-                </button>
-              </li>
-            </ul>
-          </div>
-          <div class="w3-half w3-margin-bottom">
-            <ul
-              class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off"
-            >
-              <li class="w3-dark-grey w3-xlarge w3-padding-32">
-                Pokemon Quiz App
-              </li>
+              <li class="w3-dark-grey w3-xlarge w3-padding-32">AllTheDocs</li>
               <div class="project-screenshot"></div>
 
               <li class="demo-btn w3-light-grey w3-padding-24">
