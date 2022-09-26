@@ -324,52 +324,43 @@
 
         <!-- STRETCH: Connect Form to be able to recieve data, maybe add db for backend to hold data -->
         <form action="/action_page.php" target="_blank">
-          <p>
-            <input
-              class="w3-padding-16"
-              type="text"
-              placeholder="Name"
-              required
-              name="Name"
-            />
-          </p>
-          <p>
-            <input
-              class="w3-padding-16"
-              type="text"
-              placeholder="Email"
-              required
-              name="Email"
-            />
-          </p>
-          <p>
-            <input
-              class="w3-padding-16"
-              type="text"
-              placeholder="Subject"
-              required
-              name="Subject"
-            />
-          </p>
-          <p>
-            <textarea
-              name="message"
-              class="message"
-              id="message"
-              cols="60"
-              rows="5"
-              placeholder="Hi, Emanuel. I'd Love to work with you!"
-              required
-            ></textarea>
-          </p>
-          <p>
-            <button
-              class="w3-button w3-light-grey w3-padding-large"
-              type="submit"
-            >
-              <i class="fa fa-paper-plane"></i> SEND MESSAGE
-            </button>
-          </p>
+          <input
+            class="w3-padding-16"
+            type="text"
+            placeholder="Name"
+            required
+            name="Name"
+          />
+          <input
+            class="w3-padding-16"
+            type="text"
+            placeholder="Email"
+            required
+            name="Email"
+          />
+          <input
+            class="w3-padding-16"
+            type="text"
+            placeholder="Subject"
+            required
+            name="Subject"
+          />
+          <textarea
+            name="message"
+            class="message"
+            id="message"
+            cols="60"
+            rows="5"
+            placeholder="Hi, Emanuel. I'd Love to work with you!"
+            required
+          ></textarea>
+
+          <button
+            class="form-btn btn_gradient w3-button w3-light-grey w3-padding-large"
+            type="submit"
+          >
+            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </button>
         </form>
         <!-- End Contact Section -->
       </div>
