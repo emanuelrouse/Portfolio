@@ -8,6 +8,10 @@ h6 {
   font-family: "Montserrat", sans-serif;
 }
 
+div p {
+  font-size: 1.5rem;
+}
+
 .w3-row-padding img {
   margin-bottom: 12px;
 }
@@ -107,6 +111,26 @@ header {
   height: 100%;
 }
 
-.active {
+input {
+  width: 75%;
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+.active-link {
   background-color: black;
+  color: white;
+}
+
+.contact {
+  margin-bottom: 90px;
+}
+
+textarea {
+  width: 75%;
+}
+
+footer {
+  margin-top: 150px;
 }

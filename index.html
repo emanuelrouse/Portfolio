@@ -4,18 +4,21 @@
     <title>Emanuel Rouse | Full Stack Developer</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- W3 Schools CDN -->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <!-- Google Fonts -->
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Montserrat"
     />
+    <!-- Font Awesome Icons -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <!-- Custom Styles -->
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <!-- TODO: CREATE A COLOR SCHEME FOR THE SITE  -->
 
   <body class="">
     <!-- w3-black -->
@@ -28,7 +31,7 @@
       <!-- TODO: Look into animation for nav click to make screen transition smoother -->
       <a
         href="#"
-        class="w3-bar-item w3-button w3-padding-large active w3-black"
+        class="active-link w3-bar-item w3-button w3-padding-large w3-hover-black"
       >
         <i class="fa fa-home w3-xxlarge"></i>
         <p>HOME</p>
@@ -306,7 +309,7 @@
       </div>
 
       <!-- Contact Section -->
-      <div class="container w3-padding-64 w3-content" id="contact">
+      <div class="contact container w3-padding-64 w3-content" id="contact">
         <h2>Contact Me</h2>
         <hr class="w3-opacity" />
 
@@ -338,7 +341,7 @@
         <form action="/action_page.php" target="_blank">
           <p>
             <input
-              class="w3-input w3-padding-16"
+              class="w3-padding-16"
               type="text"
               placeholder="Name"
               required
@@ -347,7 +350,7 @@
           </p>
           <p>
             <input
-              class="w3-input w3-padding-16"
+              class="w3-padding-16"
               type="text"
               placeholder="Email"
               required
@@ -356,7 +359,7 @@
           </p>
           <p>
             <input
-              class="w3-input w3-padding-16"
+              class="w3-padding-16"
               type="text"
               placeholder="Subject"
               required
@@ -364,13 +367,21 @@
             />
           </p>
           <p>
-            <input
-              class="w3-input w3-padding-16"
-              type="text"
+            <!-- <input
+              class="w3-padding-16"
+              rows="4"
+              cols="50"
               placeholder="Message"
               required
               name="Message"
-            />
+            /> -->
+            <textarea
+              name="message"
+              id="message"
+              cols="60"
+              rows="5"
+              placeholder="Hi, Emanuel. I'd Love to work with you!"
+            ></textarea>
           </p>
           <p>
             <button
@@ -384,7 +395,6 @@
         <!-- End Contact Section -->
       </div>
 
-      <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
       <footer class="w3-content w3-padding-64 w3-xlarge">
         <i class="fa fa-linkedin w3-hover-opacity"></i>
         <i class="fa fa-twitter w3-hover-opacity"></i>
@@ -394,5 +404,6 @@
 
       <!-- END PAGE CONTENT -->
     </div>
+    <script src="./js/script.js"></script>
   </body>
 </html>
