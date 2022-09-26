@@ -147,3 +147,7 @@ ul {
 li {
   list-style: none;
 }
+
+.message {
+  padding: 16px 8px;
+}
